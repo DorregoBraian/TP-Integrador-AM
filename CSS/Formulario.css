@@ -1,0 +1,63 @@
+/* mainColor = rgba(28,28,40,1) ;
+    secundaryColor =  rgba(37,37,55,1);
+    shadowColor = rgba(25,25,36,1);
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+}
+
+#formulario{
+    border: solid white;
+    background-color: rgba(25,25,36,1);
+    border-radius: 10%;
+    text-align: center;
+    margin: auto;
+
+}
+
+#formulario div{
+    text-align: center;
+    margin: 3%;
+}
+
+h3{
+    font-size: 150%;
+    color: white;
+    margin: 2%;
+}
+
+label{
+    font-size: 150%;
+    color: white;
+    margin: 6%;
+}
+
+button{
+    font-size: 150%;
+    border-radius: 10%;
+    
+    margin: 2%;
+    padding: 2%;
+}
+
+span {
+    display: none;
+    font-size: 100%;
+    margin-top: 1%;
+    color: greenyellow;
+} 
+
+
+
+
+
+
+

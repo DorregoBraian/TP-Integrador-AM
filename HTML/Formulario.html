@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Formulario.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="formulario">
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" class="formulario__input" id="nombre">
+            <span>Solo puede contener letras de la A hasta la Z tanto en minuscula como en mayuscula.</span>
+        </div>
+        <div>
+            <label for="apellido">Apellido</label>
+            <input type="text" class="formulario__input" id="apellido">
+            <span>Solo puede contener letras de la A hasta la Z tanto en minuscula como en mayuscula.</span>
+        </div>
+        <div>
+            <label for="fecha_de_nacimiento">Fecha de Nacimiento</label>
+            <input type="date" id="fecha_de_nacimiento">
+            <span>Campo Obligatorio</span>
+        </div>
+        <div>
+            <h3>Sexo</h3>
+
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="masculino" name="sexo" value="masculino">
+
+            <label for="femenino">Femenino</label>
+            <input type="radio" id="femenino" name="sexo" value="femenino">
+
+            <label for="nobinario">No Binario</label>
+            <input type="radio" id="nobinario" name="sexo" value="nobinario">
+
+            <span>Campo Obligatorio</span>
+        </div>
+        <div>
+            <h3>Valoración de la Pagina</h3>
+
+            <label for="lamentable">Lamentable</label>
+            <input type="radio" id="lamentable" name="valoración_de_pagina" value="lamentable">
+
+            <label for="mala">Mala</label>
+            <input type="radio" id="mala" name="valoración_de_pagina" value="mala">
+
+            <label for="podria_ser_mejor">Podría ser mejor</label>
+            <input type="radio" id="podria_ser_mejor" name="valoración_de_pagina" value="podria ser mejor">
+
+            <label for="cumple_con_mis_expectativas">Cumple con mis expectativas</label>
+            <input type="radio" id="cumple_con_mis_expectativas" name="valoración_de_pagina" value="Cumple con mis expectativas">
+
+            <label for="me_encanto">Me encantó</label>
+            <input type="radio" id="me_encanto" name="valoración_de_pagina" value="me encanto">
+
+            <span>Campo Obligatorio</span>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" class="formulario__input" id="email">
+            <span>Debe ser una dirección de email válida.</span>
+        </div>
+        <div>
+            <label for="comentario">Comentario</label>
+            <input type="text" id="comentario">
+        </div>
+        <button type="submit">Enviar</button>
+        <button type="submit">Cancelar</button>
+        <button type="reset">Restablecer valores</button>
+    </form>
+    <script src="../JS/Formulario.js"></script>
+</body>
+</html>
