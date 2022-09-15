@@ -11,7 +11,7 @@
     <form action="" id="formulario">
         <div>
             <label for="nombre">Nombre</label>
-            <input type="text" class="formulario__input" id="nombre">
+            <input type="text" class="formulario__input" id="nombre" autofocus>
             <span>Solo puede contener letras de la A hasta la Z tanto en minuscula como en mayuscula.</span>
         </div>
         <div>
@@ -25,37 +25,24 @@
             <span>Campo Obligatorio</span>
         </div>
         <div>
-            <h3>Sexo</h3>
-
-            <label for="masculino">Masculino</label>
-            <input type="radio" id="masculino" name="sexo" value="masculino">
-
-            <label for="femenino">Femenino</label>
-            <input type="radio" id="femenino" name="sexo" value="femenino">
-
-            <label for="nobinario">No Binario</label>
-            <input type="radio" id="nobinario" name="sexo" value="nobinario">
-
+            <label for="genero">Genero</label>
+            <select name="genero" id="">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="no binario">No Binario</option>
+            </select>
+            
             <span>Campo Obligatorio</span>
         </div>
         <div>
-            <h3>Valoración de la Pagina</h3>
-
-            <label for="lamentable">Lamentable</label>
-            <input type="radio" id="lamentable" name="valoración_de_pagina" value="lamentable">
-
-            <label for="mala">Mala</label>
-            <input type="radio" id="mala" name="valoración_de_pagina" value="mala">
-
-            <label for="podria_ser_mejor">Podría ser mejor</label>
-            <input type="radio" id="podria_ser_mejor" name="valoración_de_pagina" value="podria ser mejor">
-
-            <label for="cumple_con_mis_expectativas">Cumple con mis expectativas</label>
-            <input type="radio" id="cumple_con_mis_expectativas" name="valoración_de_pagina" value="Cumple con mis expectativas">
-
-            <label for="me_encanto">Me encantó</label>
-            <input type="radio" id="me_encanto" name="valoración_de_pagina" value="me encanto">
-
+            <label for="valoracion">Valoración de la Pagina</label>
+            <select name="valoracion" id="">
+                <option value="lamentable">Lamentable</option>
+                <option value="mala">Mala</option>
+                <option value="podria ser mejor">Podría ser mejor</option>
+                <option value="cumple con mis expectativas">Cumple con mis expectativas</option>
+                <option value="me encanto">Me encantó</option>
+            </select>
             <span>Campo Obligatorio</span>
         </div>
         <div>
@@ -67,9 +54,11 @@
             <label for="comentario">Comentario</label>
             <input type="text" id="comentario">
         </div>
-        <button type="submit">Enviar</button>
-        <button type="submit">Cancelar</button>
-        <button type="reset">Restablecer valores</button>
+        <div id="botones">
+            <button type="submit">Enviar</button>
+            <button type="">Cancelar</button>
+            <button type="reset">Restablecer valores</button>
+        </div>
     </form>
     <script src="../JS/Formulario.js"></script>
 </body>
