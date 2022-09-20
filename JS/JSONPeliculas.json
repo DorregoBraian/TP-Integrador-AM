@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "Titulo": "Harry",
+        "Duracion": "1h 50 min",
+        "Fecha": "12/05/2022",
+        "Genero": ["Aventura", "Fantacia"],
+        "Idioma": "Españpl, Ingles, Chino",
+        "imdbRating":7.3,
+        "Actores": "Daniel Radcliffe, Emma Watson, Rupert Grint",
+        "Portada": "https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"
+    },
+
+    {
+        "id": 2,
+        "Titulo": "It",
+        "Duracion": "135 min",
+        "Fecha": "2017",
+        "Genero": ["Terror"],
+        "Idioma": "Españpl, Ingles, Chino",
+        "imdbRating": 7.5,
+        "Actores": "Bill Skarsgård, Jaeden Martell, Finn Wolfhard",
+        "Portada": "https://m.media-amazon.com/images/M/MV5BZDVkZmI0YzAtNzdjYi00ZjhhLWE1ODEtMWMzMWMzNDA0NmQ4XkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_SX300.jpg"
+    },
+
+    {
+        "id": 3,
+        "Titulo": "Deadpool",
+        "Duracion": "108 min",
+        "Fecha": "12 Feb 2016",
+        "Genero": ["Accion", "Adventura", "Comedia","Super Heroes"],
+        "Idioma": "Españpl, Ingles, Chino",
+        "imdbRating": 9.5,
+        "Actores": "Ryan Reynolds, Morena Baccarin, T.J. Miller",
+        "Portada": "https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+    },
+
+    {
+        "id": 4,
+        "Titulo": "Avatar",
+        "Duracion": "162 min",
+        "Fecha": "18 Dec 2009",
+        "Genero": ["Accion", "Adventura", "Fantacia","Ciencia Ficcion"],
+        "Idioma": "Españpl, Ingles, Chino",
+        "imdbRating": 8.2,
+        "Actores": "Sam Worthington, Zoe Saldana, Sigourney Weaver",
+        "Portada": "https://m.media-amazon.com/images/M/MV5BNjA3NGExZDktNDlhZC00NjYyLTgwNmUtZWUzMDYwMTZjZWUyXkEyXkFqcGdeQXVyMTU1MDM3NDk0._V1_SX300.jpg"
+    },
+
+    {
+        "id": 5,
+        "Titulo": "Scary Movie",
+        "Duracion": "105 min",
+        "Fecha": "07 Jul 2000",
+        "Genero": ["Comedia"],
+        "Idioma": "Españpl, Ingles, Chino",
+        "imdbRating": 8,
+        "Actores": "Anna Faris, Jon Abrahams, Marlon Wayans",
+        "Portada": "https://m.media-amazon.com/images/M/MV5BMGEzZjdjMGQtZmYzZC00N2I4LThiY2QtNWY5ZmQ3M2ExZmM4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+    },
+
+    {
+        "id": 6,
+        "Titulo": "Sweet November",
+        "Duracion": "120 min",
+        "Fecha": "16 Feb 2001",
+        "Genero": ["Romance","Drama"],
+        "Idioma": "Españpl, Ingles, Chino",
+        "imdbRating": 7.2,
+        "Actores": "Keanu Reeves, Charlize Theron, Jason Isaacs",
+        "Portada": "https://m.media-amazon.com/images/M/MV5BMTc4NjYzNzkzNl5BMl5BanBnXkFtZTYwNjg1ODc5._V1_SX300.jpg"
+    },
+
+    {
+        "id": 7,
+        "Titulo": "John Wick",
+        "Duracion": "101 min",
+        "Fecha": "24 Oct 2014",
+        "Genero": ["Accion", "Crime", "Thriller"],
+        "Idioma": "Españpl, Ingles, Chino",
+        "imdbRating": 10,
+        "Actores": "Keanu Reeves, Michael Nyqvist, Alfie Allen",
+        "Portada": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_SX300.jpg"
+    },
+
+    {
+        "id": 8,
+        "Titulo": "Iron Man",
+        "Duracion": "126 min",
+        "Fecha": "02 May 2008",
+        "Genero": ["Accion", "Aventura","Super Heroes"],
+        "Idioma": "Españpl, Ingles, Chino",
+        "imdbRating": 8.4,
+        "Actores": "Robert Downey Jr., Gwyneth Paltrow, Terrence Howard",
+        "Portada": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg"
+    },
+
+    {
+        "id": 9,
+        "Titulo": "The Matrix",
+        "Duracion": "136 min",
+        "Fecha": "01 Mar 1999",
+        "Genero": ["Accion","Ciencia Ficcion"],
+        "Idioma": "Españpl, Ingles, Chino",
+        "imdbRating": 10,
+        "Actores": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
+        "Portada": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+    },
+
+    {
+        "id": 10,
+        "Titulo": "La Cosa",
+        "Duracion": "130 min",
+        "Fecha": "25 Jun 1982",
+        "Genero": ["Terror"],
+        "Idioma": "Españpl, Ingles, Chino",
+        "imdbRating": 8.3,
+        "Actores": "Kurt Russell, Wilford Brimley, Keith David",
+        "Portada": "https://m.media-amazon.com/images/M/MV5BNGViZWZmM2EtNGYzZi00ZDAyLTk3ODMtNzIyZTBjN2Y1NmM1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+    }
+
+]

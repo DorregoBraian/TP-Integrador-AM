@@ -4,62 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="../JS/main.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/Main.css">
     <link rel="stylesheet" href="../CSS/Formulario.css">
     <title>Document</title>
+    <script type="module" src="../JS/Formulario.js"></script>
 </head>
 <body>
+
+    <header id="header">
+    </header>
+
     <form action="" id="formulario">
-        <div>
-            <label for="nombre">Nombre</label>
+        <h2>Dejanos Tu Opinion</h2>
+        <div class="formulario-item">
+            <label for="nombre">Nombre: </label>
             <input type="text" class="formulario__input" id="nombre" autofocus>
-            <span>Solo puede contener letras de la A hasta la Z tanto en minuscula como en mayuscula.</span>
         </div>
-        <div>
-            <label for="apellido">Apellido</label>
+
+        <div class="formulario-item">
+            <label for="apellido">Apellido: </label>
             <input type="text" class="formulario__input" id="apellido">
-            <span>Solo puede contener letras de la A hasta la Z tanto en minuscula como en mayuscula.</span>
         </div>
-        <div>
-            <label for="fecha_de_nacimiento">Fecha de Nacimiento</label>
-            <input type="date" id="fecha_de_nacimiento">
-            <span>Campo Obligatorio</span>
+
+        <div class="formulario-item">
+            <label for="fecha">Fecha de Nacimiento: </label>
+            <input type="date" id="fecha">
         </div>
-        <div>
-            <label for="genero">Genero</label>
-            <select name="genero" id="">
+
+        <div class="formulario-item">
+            <label for="genero">Genero: </label>
+            <select name="genero" id="genero">
+                <option value="default" selected disabled hidden>- -</option>
                 <option value="hombre">Hombre</option>
                 <option value="mujer">Mujer</option>
-                <option value="no binario">No Binario</option>
+                <option value="otro">Otro</option>
             </select>
-            
-            <span>Campo Obligatorio</span>
         </div>
-        <div>
-            <label for="valoracion">Valoración de la Pagina</label>
-            <select name="valoracion" id="">
-                <option value="lamentable">Lamentable</option>
-                <option value="mala">Mala</option>
-                <option value="podria ser mejor">Podría ser mejor</option>
-                <option value="cumple con mis expectativas">Cumple con mis expectativas</option>
+
+        <div class="formulario-item">
+            <label for="valoracion">Valoración de la Pagina:</label>
+            <select name="valoracion" id="valoracion">
+                <option value="default" selected disabled hidden>- -</option>
                 <option value="me encanto">Me encantó</option>
+                <option value="cumple con mis expectativas">Cumple con mis expectativas</option>
+                <option value="podria ser mejor">Podría ser mejor</option>
+                <option value="mala">Mala</option>
+                <option value="lamentable">Lamentable</option>
             </select>
-            <span>Campo Obligatorio</span>
         </div>
-        <div>
-            <label for="email">Email</label>
+
+        <div class="formulario-item">
+            <label for="email">Email: </label>
             <input type="text" class="formulario__input" id="email">
-            <span>Debe ser una dirección de email válida.</span>
         </div>
-        <div>
-            <label for="comentario">Comentario</label>
-            <input type="text" id="comentario">
+
+        <div class="formulario-item">
+            <label for="comentario">Comentario: </label>
+            <textarea name="" id="comentario" cols="30" rows="3"></textarea>
         </div>
-        <div id="botones">
-            <button type="submit">Enviar</button>
-            <button type="">Cancelar</button>
-            <button type="reset">Restablecer valores</button>
+
+        <div id="botones" class="formulario-item">
+            <button class="form-button" id="button-enviar" type="button">Enviar</button>
+            <button class="form-button" id="button-cancelar" type="button">Cancelar</button>
+            <button class="form-button" id="button-reset" type="reset">Restablecer valores</button>
         </div>
     </form>
-    <script src="../JS/Formulario.js"></script>
+
+    <section id="modal-cancelar">
+        <div id="modalcancelar" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="modalBtnX" class="close">&times;</span>
+                    <h2>Esta seguro que desea cancelar?</h2>
+                </div>
+                <div class="modal-body" id="modal-body-reserva">
+                </div>
+                    <div class="modal-footer">
+                        <div class="modal-footer-botones">
+                            <button type="button" id="modal-boton-volver" class="modal-boton modal-boton-ok">Sí, deseo volver a la página anterior</button>
+                            <button type="button" id="modal-boton-cancelar" class="modal-boton modal-boton-cancelar">No</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer id="footer">
+
+    </footer>
 </body>
 </html>
